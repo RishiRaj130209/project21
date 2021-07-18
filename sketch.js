@@ -57,7 +57,7 @@ function draw() {
 
   if(keyDown("Up_ARROW")){
       
-	Matter.Body.applyForce(ball,{x:500,y:600},{x:0.5,y:0.06});
+	Matter.Body.applyForce(ball,{x:500,y:600},{x:0.05,y:-0.09});
 }
 
   drawSprites();
